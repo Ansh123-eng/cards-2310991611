@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            margin-top: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .card {
+            background-color: #fff;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            height: 320px;
+            text-align: center;
+            font-size: 18px;
+            text-decoration: none;
+            margin-top: 15px;
+            color: #f2efef;
+            transition: transform 0.2s, background-color 0.2s;
+            background-color:black;
+        }
+        
+        .card:hover {
+            transform: scale(1.05);
+            background-color: #282626;
+            border-color: #007bff;
+        }
+        body{
+            background-color:rgb(67, 66, 66);
+        }
+    </style>
+</head>
+<body>
+    <center><h1>DESSERTS</h1></center>
+     <!-- 12 cards on a page and by clicking on that card a new page will open giving the information about that card  -->
+    <div class="container">
+        <a href="card1.html" class="card"><img src = "https://5.imimg.com/data5/ZR/JQ/TK/IOS-15292022/chocolate-pastries-500x500.jpeg" height="200px" width = "200px"><br><br><b>PASTRY</b></a>
+        <a href="card2.html" class="card"><img src = "https://www.vegrecipesofindia.com/wp-content/uploads/2018/02/cafe-style-hot-coffee-recipe-1.jpg" height="200px" width = "200px"><br><br><b>coffee</b></a>
+        <a href="card3.html" class="card"><img src = "https://www.vegrecipesofindia.com/wp-content/uploads/2020/12/apple-pie-2-500x500.jpg" height="200px" width = "200px"><br><br><b>APLLE PIE</b></a>
+        <a href="card4.html" class="card"><img src = "https://www.thespruceeats.com/thmb/PGh87G5Z6xe_wNfLYQsm7AuHo2U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/unicorn-doughnuts-4773240-hero-01-9e468efed0f64d8a8fdc103f31cc4d8a.jpg" height="200px" width = "200px"><br><br><b>DONUTS</b></a>
+        <a href="card5.html" class="card"><img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuwKZtoPfrp-Le01UzH_OxJXccfRP3cZIeRg&s" height="200px" width = "200px"><br><br><b>TIRAMISU</b></a>
+        <a href="card6.html" class="card"><img src = "data:image/jpeg;base64,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" height="200px" width = "200px"><br><br><b>MACRONS</b></a>
+        <br>
+        <center><h1>ICE CREAMS</h1></center>
+        <br>
+        <br>
+        <a href="card7.html" class="card"><img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-F4Ym2DFrI6nu9zD7cgVqgfF4Awc2zQQCxQ&usqp=CAU" height="200px" width = "200px"><br><br><b>BUTTERSCOTCH</b></a>
+        <a href="card8.html" class="card"><img src = "https://asset.slimmingworld.co.uk/content/media/8282/creamy-vanilla-ice-cream_sw_recipe.jpg?v1=JGXiore20qg9NNIj0tmc3XnMBRiFLeuPwnkMWX-ivUUfI-tIhWobeJ5f6LPDImW-W0uzKxkHzWwuvJuZ1Q4hAsnznlG-h3x18CRHAkeEr-m-meGUGinSVuSkzzV-bMfz&width=1200&height=630" height="200px" width = "200px"><br><br><b>VANNILA</b></a>
+        <a href="card9.html" class="card"><img src = "https://5.imimg.com/data5/SELLER/Default/2021/12/NI/UU/JK/3180617/mix-fruit-ice-cream-flavour.jpg" height="200px" width = "200px"><br><br><b>MIX FRUIT</b></a>
+        <a href="card10.html" class="card"><img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjy_CmG8FnqFOoKjY--1OFKGb4ZnXEq1hNCg&usqp=CAU" height="230px" width = "200px"><br><br><b>STRAWBERRY</b></a>
+        <a href="card11.html" class="card"><img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtDONHPBwqKH8Y0QX9Q5k6LIkeCAO6JEHvbQ&s" height="230px" width = "200px"><br><br><b>CHOCOLATE</b></a>
+        <a href="card12.html" class="card"><img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8wsZrVmvqy6VL4k_cMj3V8fM4A4JiIRPkFw&s" height="230px" width = "200px"><br><br><b>PISTA</b></a>
+    </div>
+</body>
+</html>
+ 
+   
+</body>
+</html>
